@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F39AD207142777C300A381C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39AD206142777C300A381C2 /* UIKit.framework */; };
+		F39AD209142777C300A381C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39AD208142777C300A381C2 /* Foundation.framework */; };
+		F39AD20B142777C300A381C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39AD20A142777C300A381C2 /* CoreGraphics.framework */; };
+		F39AD211142777C300A381C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F39AD20F142777C300A381C2 /* InfoPlist.strings */; };
+		F39AD213142777C300A381C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F39AD212142777C300A381C2 /* main.m */; };
+		F39AD217142777C300A381C2 /* HelloNameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F39AD216142777C300A381C2 /* HelloNameAppDelegate.m */; };
+		F39AD21A142777C300A381C2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39AD218142777C300A381C2 /* MainWindow.xib */; };
+		F39AD21D142777C300A381C2 /* HelloNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39AD21C142777C300A381C2 /* HelloNameViewController.m */; };
+		F39AD220142777C400A381C2 /* HelloNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F39AD21E142777C400A381C2 /* HelloNameViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F39AD202142777C300A381C2 /* HelloName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloName.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39AD206142777C300A381C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F39AD208142777C300A381C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F39AD20A142777C300A381C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F39AD20E142777C300A381C2 /* HelloName-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloName-Info.plist"; sourceTree = "<group>"; };
+		F39AD210142777C300A381C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F39AD212142777C300A381C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F39AD214142777C300A381C2 /* HelloName-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloName-Prefix.pch"; sourceTree = "<group>"; };
+		F39AD215142777C300A381C2 /* HelloNameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloNameAppDelegate.h; sourceTree = "<group>"; };
+		F39AD216142777C300A381C2 /* HelloNameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloNameAppDelegate.m; sourceTree = "<group>"; };
+		F39AD219142777C300A381C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F39AD21B142777C300A381C2 /* HelloNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloNameViewController.h; sourceTree = "<group>"; };
+		F39AD21C142777C300A381C2 /* HelloNameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloNameViewController.m; sourceTree = "<group>"; };
+		F39AD21F142777C400A381C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloNameViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39AD1FF142777C300A381C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39AD207142777C300A381C2 /* UIKit.framework in Frameworks */,
+				F39AD209142777C300A381C2 /* Foundation.framework in Frameworks */,
+				F39AD20B142777C300A381C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F39AD1F7142777C300A381C2 = {
+			isa = PBXGroup;
+			children = (
+				F39AD20C142777C300A381C2 /* HelloName */,
+				F39AD205142777C300A381C2 /* Frameworks */,
+				F39AD203142777C300A381C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F39AD203142777C300A381C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39AD202142777C300A381C2 /* HelloName.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39AD205142777C300A381C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F39AD206142777C300A381C2 /* UIKit.framework */,
+				F39AD208142777C300A381C2 /* Foundation.framework */,
+				F39AD20A142777C300A381C2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F39AD20C142777C300A381C2 /* HelloName */ = {
+			isa = PBXGroup;
+			children = (
+				F39AD215142777C300A381C2 /* HelloNameAppDelegate.h */,
+				F39AD216142777C300A381C2 /* HelloNameAppDelegate.m */,
+				F39AD218142777C300A381C2 /* MainWindow.xib */,
+				F39AD21B142777C300A381C2 /* HelloNameViewController.h */,
+				F39AD21C142777C300A381C2 /* HelloNameViewController.m */,
+				F39AD21E142777C400A381C2 /* HelloNameViewController.xib */,
+				F39AD20D142777C300A381C2 /* Supporting Files */,
+			);
+			path = HelloName;
+			sourceTree = "<group>";
+		};
+		F39AD20D142777C300A381C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F39AD20E142777C300A381C2 /* HelloName-Info.plist */,
+				F39AD20F142777C300A381C2 /* InfoPlist.strings */,
+				F39AD212142777C300A381C2 /* main.m */,
+				F39AD214142777C300A381C2 /* HelloName-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39AD201142777C300A381C2 /* HelloName */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39AD223142777C400A381C2 /* Build configuration list for PBXNativeTarget "HelloName" */;
+			buildPhases = (
+				F39AD1FE142777C300A381C2 /* Sources */,
+				F39AD1FF142777C300A381C2 /* Frameworks */,
+				F39AD200142777C300A381C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloName;
+			productName = HelloName;
+			productReference = F39AD202142777C300A381C2 /* HelloName.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39AD1F9142777C300A381C2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F39AD1FC142777C300A381C2 /* Build configuration list for PBXProject "HelloName" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F39AD1F7142777C300A381C2;
+			productRefGroup = F39AD203142777C300A381C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39AD201142777C300A381C2 /* HelloName */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39AD200142777C300A381C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39AD211142777C300A381C2 /* InfoPlist.strings in Resources */,
+				F39AD21A142777C300A381C2 /* MainWindow.xib in Resources */,
+				F39AD220142777C400A381C2 /* HelloNameViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39AD1FE142777C300A381C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39AD213142777C300A381C2 /* main.m in Sources */,
+				F39AD217142777C300A381C2 /* HelloNameAppDelegate.m in Sources */,
+				F39AD21D142777C300A381C2 /* HelloNameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F39AD20F142777C300A381C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39AD210142777C300A381C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F39AD218142777C300A381C2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39AD219142777C300A381C2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F39AD21E142777C400A381C2 /* HelloNameViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39AD21F142777C400A381C2 /* en */,
+			);
+			name = HelloNameViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39AD221142777C400A381C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F39AD222142777C400A381C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39AD224142777C400A381C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloName/HelloName-Prefix.pch";
+				INFOPLIST_FILE = "HelloName/HelloName-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F39AD225142777C400A381C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloName/HelloName-Prefix.pch";
+				INFOPLIST_FILE = "HelloName/HelloName-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39AD1FC142777C300A381C2 /* Build configuration list for PBXProject "HelloName" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39AD221142777C400A381C2 /* Debug */,
+				F39AD222142777C400A381C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39AD223142777C400A381C2 /* Build configuration list for PBXNativeTarget "HelloName" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39AD224142777C400A381C2 /* Debug */,
+				F39AD225142777C400A381C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39AD1F9142777C300A381C2 /* Project object */;
+}
