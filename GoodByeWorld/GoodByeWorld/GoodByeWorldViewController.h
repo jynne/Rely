@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GoodByeWorldViewController : UIViewController
+@interface GoodByeWorldViewController : UIViewController {
+    UIImageView *earth;
+}
+
+@property (nonatomic, retain) IBOutlet UIImageView *earth;
 
 @end
