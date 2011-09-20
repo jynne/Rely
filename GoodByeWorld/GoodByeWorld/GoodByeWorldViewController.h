@@ -10,8 +10,10 @@
 
 @interface GoodByeWorldViewController : UIViewController {
     UIImageView *earth;
+    UIImageView *galaxy;
 }
 
 @property (nonatomic, retain) IBOutlet UIImageView *earth;
+@property (nonatomic, retain) IBOutlet UIImageView *galaxy;
 
 @end

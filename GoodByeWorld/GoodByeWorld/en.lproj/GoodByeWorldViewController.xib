@@ -42,12 +42,12 @@
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="IBUIImageView" id="336123194">
+					<object class="IBUIImageView" id="228689391">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrameSize">{960, 574}</string>
+						<string key="NSFrameSize">{960, 480}</string>
 						<reference key="NSSuperview" ref="774585933"/>
-						<reference key="NSNextKeyView" ref="224890693"/>
+						<reference key="NSNextKeyView" ref="283271312"/>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
@@ -55,7 +55,7 @@
 							<string key="NSResourceName">galaxy.jpg</string>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="224890693">
+					<object class="IBUIImageView" id="283271312">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">274</int>
 						<string key="NSFrame">{{18, 87}, {285, 285}}</string>
@@ -71,7 +71,7 @@
 				</object>
 				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSNextKeyView" ref="336123194"/>
+				<reference key="NSNextKeyView" ref="228689391"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MC43NQA</bytes>
@@ -99,9 +99,17 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">earth</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="224890693"/>
+						<reference key="destination" ref="283271312"/>
 					</object>
 					<int key="connectionID">10</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">galaxy</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="228689391"/>
+					</object>
+					<int key="connectionID">11</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -129,20 +137,20 @@
 						<reference key="object" ref="774585933"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="224890693"/>
-							<reference ref="336123194"/>
+							<reference ref="283271312"/>
+							<reference ref="228689391"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">8</int>
-						<reference key="object" ref="224890693"/>
+						<reference key="object" ref="283271312"/>
 						<reference key="parent" ref="774585933"/>
 						<string key="objectName">earth</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">9</int>
-						<reference key="object" ref="336123194"/>
+						<reference key="object" ref="228689391"/>
 						<reference key="parent" ref="774585933"/>
 						<string key="objectName">galaxy</string>
 					</object>
@@ -183,7 +191,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">10</int>
+			<int key="maxID">11</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>

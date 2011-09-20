@@ -10,6 +10,7 @@
 
 @implementation GoodByeWorldViewController
 @synthesize earth;
+@synthesize galaxy;
 
 - (void)didReceiveMemoryWarning
 {
@@ -36,13 +37,24 @@
         [animationImages addObject:image];        
     }
     self.earth.animationImages = animationImages;
-    self.earth.animationDuration = 2.0f;
+    self.earth.animationDuration = 1.5f;
     [self.earth startAnimating];
+    
+    // Animate my galaxy
+    CGRect galaxyFrame = self.galaxy.frame;
+    galaxyFrame.origin.x -= 640.0f;
+    
+    [UIView beginAnimations:@"galaxy" context:nil];
+    [UIView setAnimationRepeatCount:INFINITY];
+    [UIView setAnimationRepeatAutoreverses:YES];
+    self.galaxy.frame = galaxyFrame;
+    [UIView commitAnimations];
 }
 
 - (void)viewDidUnload
 {
     [self setEarth:nil];
+    [self setGalaxy:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -56,6 +68,7 @@
 
 - (void)dealloc {
     [earth release];
+    [galaxy release];
     [super dealloc];
 }
 @end
