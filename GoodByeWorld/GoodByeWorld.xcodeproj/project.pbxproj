@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3B9FEE81428BC3A008781F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9FEE71428BC3A008781F2 /* UIKit.framework */; };
+		F3B9FEEA1428BC3A008781F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9FEE91428BC3A008781F2 /* Foundation.framework */; };
+		F3B9FEEC1428BC3A008781F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9FEEB1428BC3A008781F2 /* CoreGraphics.framework */; };
+		F3B9FEF21428BC3A008781F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FEF01428BC3A008781F2 /* InfoPlist.strings */; };
+		F3B9FEF41428BC3A008781F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B9FEF31428BC3A008781F2 /* main.m */; };
+		F3B9FEF81428BC3A008781F2 /* GoodByeWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B9FEF71428BC3A008781F2 /* GoodByeWorldAppDelegate.m */; };
+		F3B9FEFB1428BC3A008781F2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FEF91428BC3A008781F2 /* MainWindow.xib */; };
+		F3B9FEFE1428BC3A008781F2 /* GoodByeWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B9FEFD1428BC3A008781F2 /* GoodByeWorldViewController.m */; };
+		F3B9FF011428BC3A008781F2 /* GoodByeWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FEFF1428BC3A008781F2 /* GoodByeWorldViewController.xib */; };
+		F3B9FF161428BCFA008781F2 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF081428BCFA008781F2 /* explosion.png */; };
+		F3B9FF171428BCFA008781F2 /* galaxy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF091428BCFA008781F2 /* galaxy.jpg */; };
+		F3B9FF181428BCFA008781F2 /* spinning-earth0001.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF0B1428BCFA008781F2 /* spinning-earth0001.png */; };
+		F3B9FF191428BCFA008781F2 /* spinning-earth0002.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF0C1428BCFA008781F2 /* spinning-earth0002.png */; };
+		F3B9FF1A1428BCFA008781F2 /* spinning-earth0003.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF0D1428BCFA008781F2 /* spinning-earth0003.png */; };
+		F3B9FF1B1428BCFA008781F2 /* spinning-earth0004.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF0E1428BCFA008781F2 /* spinning-earth0004.png */; };
+		F3B9FF1C1428BCFA008781F2 /* spinning-earth0005.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF0F1428BCFA008781F2 /* spinning-earth0005.png */; };
+		F3B9FF1D1428BCFA008781F2 /* spinning-earth0006.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF101428BCFA008781F2 /* spinning-earth0006.png */; };
+		F3B9FF1E1428BCFA008781F2 /* spinning-earth0007.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF111428BCFA008781F2 /* spinning-earth0007.png */; };
+		F3B9FF1F1428BCFA008781F2 /* spinning-earth0008.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF121428BCFA008781F2 /* spinning-earth0008.png */; };
+		F3B9FF201428BCFA008781F2 /* spinning-earth0009.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF131428BCFA008781F2 /* spinning-earth0009.png */; };
+		F3B9FF211428BCFA008781F2 /* spinning-earth0010.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF141428BCFA008781F2 /* spinning-earth0010.png */; };
+		F3B9FF221428BCFA008781F2 /* spinning-earth0011.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FF151428BCFA008781F2 /* spinning-earth0011.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3B9FEE31428BC3A008781F2 /* GoodByeWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodByeWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B9FEE71428BC3A008781F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3B9FEE91428BC3A008781F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3B9FEEB1428BC3A008781F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3B9FEEF1428BC3A008781F2 /* GoodByeWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoodByeWorld-Info.plist"; sourceTree = "<group>"; };
+		F3B9FEF11428BC3A008781F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3B9FEF31428BC3A008781F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3B9FEF51428BC3A008781F2 /* GoodByeWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoodByeWorld-Prefix.pch"; sourceTree = "<group>"; };
+		F3B9FEF61428BC3A008781F2 /* GoodByeWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodByeWorldAppDelegate.h; sourceTree = "<group>"; };
+		F3B9FEF71428BC3A008781F2 /* GoodByeWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodByeWorldAppDelegate.m; sourceTree = "<group>"; };
+		F3B9FEFA1428BC3A008781F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F3B9FEFC1428BC3A008781F2 /* GoodByeWorldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodByeWorldViewController.h; sourceTree = "<group>"; };
+		F3B9FEFD1428BC3A008781F2 /* GoodByeWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodByeWorldViewController.m; sourceTree = "<group>"; };
+		F3B9FF001428BC3A008781F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GoodByeWorldViewController.xib; sourceTree = "<group>"; };
+		F3B9FF081428BCFA008781F2 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
+		F3B9FF091428BCFA008781F2 /* galaxy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galaxy.jpg; sourceTree = "<group>"; };
+		F3B9FF0B1428BCFA008781F2 /* spinning-earth0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0001.png"; sourceTree = "<group>"; };
+		F3B9FF0C1428BCFA008781F2 /* spinning-earth0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0002.png"; sourceTree = "<group>"; };
+		F3B9FF0D1428BCFA008781F2 /* spinning-earth0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0003.png"; sourceTree = "<group>"; };
+		F3B9FF0E1428BCFA008781F2 /* spinning-earth0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0004.png"; sourceTree = "<group>"; };
+		F3B9FF0F1428BCFA008781F2 /* spinning-earth0005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0005.png"; sourceTree = "<group>"; };
+		F3B9FF101428BCFA008781F2 /* spinning-earth0006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0006.png"; sourceTree = "<group>"; };
+		F3B9FF111428BCFA008781F2 /* spinning-earth0007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0007.png"; sourceTree = "<group>"; };
+		F3B9FF121428BCFA008781F2 /* spinning-earth0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0008.png"; sourceTree = "<group>"; };
+		F3B9FF131428BCFA008781F2 /* spinning-earth0009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0009.png"; sourceTree = "<group>"; };
+		F3B9FF141428BCFA008781F2 /* spinning-earth0010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0010.png"; sourceTree = "<group>"; };
+		F3B9FF151428BCFA008781F2 /* spinning-earth0011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spinning-earth0011.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B9FEE01428BC3A008781F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B9FEE81428BC3A008781F2 /* UIKit.framework in Frameworks */,
+				F3B9FEEA1428BC3A008781F2 /* Foundation.framework in Frameworks */,
+				F3B9FEEC1428BC3A008781F2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B9FED81428BC3A008781F2 = {
+			isa = PBXGroup;
+			children = (
+				F3B9FEED1428BC3A008781F2 /* GoodByeWorld */,
+				F3B9FEE61428BC3A008781F2 /* Frameworks */,
+				F3B9FEE41428BC3A008781F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B9FEE41428BC3A008781F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9FEE31428BC3A008781F2 /* GoodByeWorld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B9FEE61428BC3A008781F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9FEE71428BC3A008781F2 /* UIKit.framework */,
+				F3B9FEE91428BC3A008781F2 /* Foundation.framework */,
+				F3B9FEEB1428BC3A008781F2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B9FEED1428BC3A008781F2 /* GoodByeWorld */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9FF071428BC98008781F2 /* Assets */,
+				F3B9FEF61428BC3A008781F2 /* GoodByeWorldAppDelegate.h */,
+				F3B9FEF71428BC3A008781F2 /* GoodByeWorldAppDelegate.m */,
+				F3B9FEF91428BC3A008781F2 /* MainWindow.xib */,
+				F3B9FEFC1428BC3A008781F2 /* GoodByeWorldViewController.h */,
+				F3B9FEFD1428BC3A008781F2 /* GoodByeWorldViewController.m */,
+				F3B9FEFF1428BC3A008781F2 /* GoodByeWorldViewController.xib */,
+				F3B9FEEE1428BC3A008781F2 /* Supporting Files */,
+			);
+			path = GoodByeWorld;
+			sourceTree = "<group>";
+		};
+		F3B9FEEE1428BC3A008781F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9FEEF1428BC3A008781F2 /* GoodByeWorld-Info.plist */,
+				F3B9FEF01428BC3A008781F2 /* InfoPlist.strings */,
+				F3B9FEF31428BC3A008781F2 /* main.m */,
+				F3B9FEF51428BC3A008781F2 /* GoodByeWorld-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3B9FF071428BC98008781F2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9FF081428BCFA008781F2 /* explosion.png */,
+				F3B9FF091428BCFA008781F2 /* galaxy.jpg */,
+				F3B9FF0A1428BCFA008781F2 /* spinning-earth */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		F3B9FF0A1428BCFA008781F2 /* spinning-earth */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9FF0B1428BCFA008781F2 /* spinning-earth0001.png */,
+				F3B9FF0C1428BCFA008781F2 /* spinning-earth0002.png */,
+				F3B9FF0D1428BCFA008781F2 /* spinning-earth0003.png */,
+				F3B9FF0E1428BCFA008781F2 /* spinning-earth0004.png */,
+				F3B9FF0F1428BCFA008781F2 /* spinning-earth0005.png */,
+				F3B9FF101428BCFA008781F2 /* spinning-earth0006.png */,
+				F3B9FF111428BCFA008781F2 /* spinning-earth0007.png */,
+				F3B9FF121428BCFA008781F2 /* spinning-earth0008.png */,
+				F3B9FF131428BCFA008781F2 /* spinning-earth0009.png */,
+				F3B9FF141428BCFA008781F2 /* spinning-earth0010.png */,
+				F3B9FF151428BCFA008781F2 /* spinning-earth0011.png */,
+			);
+			path = "spinning-earth";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B9FEE21428BC3A008781F2 /* GoodByeWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B9FF041428BC3A008781F2 /* Build configuration list for PBXNativeTarget "GoodByeWorld" */;
+			buildPhases = (
+				F3B9FEDF1428BC3A008781F2 /* Sources */,
+				F3B9FEE01428BC3A008781F2 /* Frameworks */,
+				F3B9FEE11428BC3A008781F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodByeWorld;
+			productName = GoodByeWorld;
+			productReference = F3B9FEE31428BC3A008781F2 /* GoodByeWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B9FEDA1428BC3A008781F2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F3B9FEDD1428BC3A008781F2 /* Build configuration list for PBXProject "GoodByeWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3B9FED81428BC3A008781F2;
+			productRefGroup = F3B9FEE41428BC3A008781F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B9FEE21428BC3A008781F2 /* GoodByeWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B9FEE11428BC3A008781F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B9FEF21428BC3A008781F2 /* InfoPlist.strings in Resources */,
+				F3B9FEFB1428BC3A008781F2 /* MainWindow.xib in Resources */,
+				F3B9FF011428BC3A008781F2 /* GoodByeWorldViewController.xib in Resources */,
+				F3B9FF161428BCFA008781F2 /* explosion.png in Resources */,
+				F3B9FF171428BCFA008781F2 /* galaxy.jpg in Resources */,
+				F3B9FF181428BCFA008781F2 /* spinning-earth0001.png in Resources */,
+				F3B9FF191428BCFA008781F2 /* spinning-earth0002.png in Resources */,
+				F3B9FF1A1428BCFA008781F2 /* spinning-earth0003.png in Resources */,
+				F3B9FF1B1428BCFA008781F2 /* spinning-earth0004.png in Resources */,
+				F3B9FF1C1428BCFA008781F2 /* spinning-earth0005.png in Resources */,
+				F3B9FF1D1428BCFA008781F2 /* spinning-earth0006.png in Resources */,
+				F3B9FF1E1428BCFA008781F2 /* spinning-earth0007.png in Resources */,
+				F3B9FF1F1428BCFA008781F2 /* spinning-earth0008.png in Resources */,
+				F3B9FF201428BCFA008781F2 /* spinning-earth0009.png in Resources */,
+				F3B9FF211428BCFA008781F2 /* spinning-earth0010.png in Resources */,
+				F3B9FF221428BCFA008781F2 /* spinning-earth0011.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B9FEDF1428BC3A008781F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B9FEF41428BC3A008781F2 /* main.m in Sources */,
+				F3B9FEF81428BC3A008781F2 /* GoodByeWorldAppDelegate.m in Sources */,
+				F3B9FEFE1428BC3A008781F2 /* GoodByeWorldViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3B9FEF01428BC3A008781F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B9FEF11428BC3A008781F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3B9FEF91428BC3A008781F2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B9FEFA1428BC3A008781F2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F3B9FEFF1428BC3A008781F2 /* GoodByeWorldViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B9FF001428BC3A008781F2 /* en */,
+			);
+			name = GoodByeWorldViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B9FF021428BC3A008781F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3B9FF031428BC3A008781F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B9FF051428BC3A008781F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodByeWorld/GoodByeWorld-Prefix.pch";
+				INFOPLIST_FILE = "GoodByeWorld/GoodByeWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3B9FF061428BC3A008781F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoodByeWorld/GoodByeWorld-Prefix.pch";
+				INFOPLIST_FILE = "GoodByeWorld/GoodByeWorld-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B9FEDD1428BC3A008781F2 /* Build configuration list for PBXProject "GoodByeWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B9FF021428BC3A008781F2 /* Debug */,
+				F3B9FF031428BC3A008781F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B9FF041428BC3A008781F2 /* Build configuration list for PBXNativeTarget "GoodByeWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B9FF051428BC3A008781F2 /* Debug */,
+				F3B9FF061428BC3A008781F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B9FEDA1428BC3A008781F2 /* Project object */;
+}
