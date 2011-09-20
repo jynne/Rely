@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3B9FEAC14287734008781F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9FEAB14287734008781F2 /* UIKit.framework */; };
+		F3B9FEAE14287734008781F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9FEAD14287734008781F2 /* Foundation.framework */; };
+		F3B9FEB014287734008781F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9FEAF14287734008781F2 /* CoreGraphics.framework */; };
+		F3B9FEB614287734008781F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FEB414287734008781F2 /* InfoPlist.strings */; };
+		F3B9FEB814287734008781F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B9FEB714287734008781F2 /* main.m */; };
+		F3B9FEBC14287734008781F2 /* GrannyBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B9FEBB14287734008781F2 /* GrannyBrowserAppDelegate.m */; };
+		F3B9FEBF14287734008781F2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FEBD14287734008781F2 /* MainWindow.xib */; };
+		F3B9FEC214287734008781F2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B9FEC114287734008781F2 /* MainViewController.m */; };
+		F3B9FEC414287734008781F2 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FEC314287734008781F2 /* MainView.xib */; };
+		F3B9FEC714287734008781F2 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B9FEC614287734008781F2 /* FlipsideViewController.m */; };
+		F3B9FEC914287734008781F2 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B9FEC814287734008781F2 /* FlipsideView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3B9FEA714287734008781F2 /* GrannyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrannyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B9FEAB14287734008781F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3B9FEAD14287734008781F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3B9FEAF14287734008781F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3B9FEB314287734008781F2 /* GrannyBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrannyBrowser-Info.plist"; sourceTree = "<group>"; };
+		F3B9FEB514287734008781F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3B9FEB714287734008781F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3B9FEB914287734008781F2 /* GrannyBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrannyBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		F3B9FEBA14287734008781F2 /* GrannyBrowserAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrannyBrowserAppDelegate.h; sourceTree = "<group>"; };
+		F3B9FEBB14287734008781F2 /* GrannyBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrannyBrowserAppDelegate.m; sourceTree = "<group>"; };
+		F3B9FEBE14287734008781F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F3B9FEC014287734008781F2 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F3B9FEC114287734008781F2 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F3B9FEC314287734008781F2 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		F3B9FEC514287734008781F2 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		F3B9FEC614287734008781F2 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		F3B9FEC814287734008781F2 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B9FEA414287734008781F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B9FEAC14287734008781F2 /* UIKit.framework in Frameworks */,
+				F3B9FEAE14287734008781F2 /* Foundation.framework in Frameworks */,
+				F3B9FEB014287734008781F2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B9FE9C14287734008781F2 = {
+			isa = PBXGroup;
+			children = (
+				F3B9FEB114287734008781F2 /* GrannyBrowser */,
+				F3B9FEAA14287734008781F2 /* Frameworks */,
+				F3B9FEA814287734008781F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B9FEA814287734008781F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9FEA714287734008781F2 /* GrannyBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B9FEAA14287734008781F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9FEAB14287734008781F2 /* UIKit.framework */,
+				F3B9FEAD14287734008781F2 /* Foundation.framework */,
+				F3B9FEAF14287734008781F2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B9FEB114287734008781F2 /* GrannyBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9FEBA14287734008781F2 /* GrannyBrowserAppDelegate.h */,
+				F3B9FEBB14287734008781F2 /* GrannyBrowserAppDelegate.m */,
+				F3B9FEBD14287734008781F2 /* MainWindow.xib */,
+				F3B9FEC014287734008781F2 /* MainViewController.h */,
+				F3B9FEC114287734008781F2 /* MainViewController.m */,
+				F3B9FEC314287734008781F2 /* MainView.xib */,
+				F3B9FEC514287734008781F2 /* FlipsideViewController.h */,
+				F3B9FEC614287734008781F2 /* FlipsideViewController.m */,
+				F3B9FEC814287734008781F2 /* FlipsideView.xib */,
+				F3B9FEB214287734008781F2 /* Supporting Files */,
+			);
+			path = GrannyBrowser;
+			sourceTree = "<group>";
+		};
+		F3B9FEB214287734008781F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9FEB314287734008781F2 /* GrannyBrowser-Info.plist */,
+				F3B9FEB414287734008781F2 /* InfoPlist.strings */,
+				F3B9FEB714287734008781F2 /* main.m */,
+				F3B9FEB914287734008781F2 /* GrannyBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B9FEA614287734008781F2 /* GrannyBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B9FECC14287734008781F2 /* Build configuration list for PBXNativeTarget "GrannyBrowser" */;
+			buildPhases = (
+				F3B9FEA314287734008781F2 /* Sources */,
+				F3B9FEA414287734008781F2 /* Frameworks */,
+				F3B9FEA514287734008781F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrannyBrowser;
+			productName = GrannyBrowser;
+			productReference = F3B9FEA714287734008781F2 /* GrannyBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B9FE9E14287734008781F2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F3B9FEA114287734008781F2 /* Build configuration list for PBXProject "GrannyBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3B9FE9C14287734008781F2;
+			productRefGroup = F3B9FEA814287734008781F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B9FEA614287734008781F2 /* GrannyBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B9FEA514287734008781F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B9FEB614287734008781F2 /* InfoPlist.strings in Resources */,
+				F3B9FEBF14287734008781F2 /* MainWindow.xib in Resources */,
+				F3B9FEC414287734008781F2 /* MainView.xib in Resources */,
+				F3B9FEC914287734008781F2 /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B9FEA314287734008781F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B9FEB814287734008781F2 /* main.m in Sources */,
+				F3B9FEBC14287734008781F2 /* GrannyBrowserAppDelegate.m in Sources */,
+				F3B9FEC214287734008781F2 /* MainViewController.m in Sources */,
+				F3B9FEC714287734008781F2 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3B9FEB414287734008781F2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B9FEB514287734008781F2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3B9FEBD14287734008781F2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B9FEBE14287734008781F2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B9FECA14287734008781F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3B9FECB14287734008781F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B9FECD14287734008781F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrannyBrowser/GrannyBrowser-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "GrannyBrowser/GrannyBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3B9FECE14287734008781F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrannyBrowser/GrannyBrowser-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "GrannyBrowser/GrannyBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B9FEA114287734008781F2 /* Build configuration list for PBXProject "GrannyBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B9FECA14287734008781F2 /* Debug */,
+				F3B9FECB14287734008781F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B9FECC14287734008781F2 /* Build configuration list for PBXNativeTarget "GrannyBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B9FECD14287734008781F2 /* Debug */,
+				F3B9FECE14287734008781F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B9FE9E14287734008781F2 /* Project object */;
+}
