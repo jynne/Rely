@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3E71FBA1429DDC000B34BE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E71FB91429DDC000B34BE9 /* UIKit.framework */; };
+		F3E71FBC1429DDC000B34BE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E71FBB1429DDC000B34BE9 /* Foundation.framework */; };
+		F3E71FBE1429DDC000B34BE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E71FBD1429DDC000B34BE9 /* CoreGraphics.framework */; };
+		F3E71FC41429DDC000B34BE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3E71FC21429DDC000B34BE9 /* InfoPlist.strings */; };
+		F3E71FC61429DDC000B34BE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FC51429DDC000B34BE9 /* main.m */; };
+		F3E71FCA1429DDC000B34BE9 /* DrillDownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FC91429DDC000B34BE9 /* DrillDownAppDelegate.m */; };
+		F3E71FCD1429DDC000B34BE9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3E71FCB1429DDC000B34BE9 /* MainWindow.xib */; };
+		F3E71FD01429DDC000B34BE9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FCF1429DDC000B34BE9 /* RootViewController.m */; };
+		F3E71FD31429DDC000B34BE9 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3E71FD11429DDC000B34BE9 /* RootViewController.xib */; };
+		F3E71FDA1429E12800B34BE9 /* public_timeline.json in Resources */ = {isa = PBXBuildFile; fileRef = F3E71FD91429E12800B34BE9 /* public_timeline.json */; };
+		F3E71FF41429E67200B34BE9 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FDD1429E67200B34BE9 /* CDataScanner.m */; };
+		F3E71FF51429E67200B34BE9 /* CFilteringJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FE01429E67200B34BE9 /* CFilteringJSONSerializer.m */; };
+		F3E71FF61429E67200B34BE9 /* CJSONDeserializer_BlocksExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FE21429E67200B34BE9 /* CJSONDeserializer_BlocksExtensions.m */; };
+		F3E71FF71429E67200B34BE9 /* CJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FE41429E67200B34BE9 /* CJSONSerialization.m */; };
+		F3E71FF81429E67200B34BE9 /* CJSONSerializedData.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FE61429E67200B34BE9 /* CJSONSerializedData.m */; };
+		F3E71FF91429E67200B34BE9 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FE91429E67200B34BE9 /* CDataScanner_Extensions.m */; };
+		F3E71FFA1429E67200B34BE9 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FEB1429E67200B34BE9 /* NSDictionary_JSONExtensions.m */; };
+		F3E71FFB1429E67200B34BE9 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FEE1429E67200B34BE9 /* CJSONDeserializer.m */; };
+		F3E71FFC1429E67200B34BE9 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FF01429E67200B34BE9 /* CJSONScanner.m */; };
+		F3E71FFD1429E67200B34BE9 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FF21429E67200B34BE9 /* CJSONSerializer.m */; };
+		F3E720011429FFF800B34BE9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FFF1429FFF800B34BE9 /* DetailViewController.m */; };
+		F3E720021429FFF800B34BE9 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3E720001429FFF800B34BE9 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3E71FB51429DDC000B34BE9 /* DrillDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrillDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E71FB91429DDC000B34BE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3E71FBB1429DDC000B34BE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3E71FBD1429DDC000B34BE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3E71FC11429DDC000B34BE9 /* DrillDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrillDown-Info.plist"; sourceTree = "<group>"; };
+		F3E71FC31429DDC000B34BE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3E71FC51429DDC000B34BE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3E71FC71429DDC000B34BE9 /* DrillDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrillDown-Prefix.pch"; sourceTree = "<group>"; };
+		F3E71FC81429DDC000B34BE9 /* DrillDownAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrillDownAppDelegate.h; sourceTree = "<group>"; };
+		F3E71FC91429DDC000B34BE9 /* DrillDownAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrillDownAppDelegate.m; sourceTree = "<group>"; };
+		F3E71FCC1429DDC000B34BE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F3E71FCE1429DDC000B34BE9 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F3E71FCF1429DDC000B34BE9 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F3E71FD21429DDC000B34BE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		F3E71FD91429E12800B34BE9 /* public_timeline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = public_timeline.json; sourceTree = "<group>"; };
+		F3E71FDC1429E67200B34BE9 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		F3E71FDD1429E67200B34BE9 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		F3E71FDF1429E67200B34BE9 /* CFilteringJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFilteringJSONSerializer.h; sourceTree = "<group>"; };
+		F3E71FE01429E67200B34BE9 /* CFilteringJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFilteringJSONSerializer.m; sourceTree = "<group>"; };
+		F3E71FE11429E67200B34BE9 /* CJSONDeserializer_BlocksExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer_BlocksExtensions.h; sourceTree = "<group>"; };
+		F3E71FE21429E67200B34BE9 /* CJSONDeserializer_BlocksExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer_BlocksExtensions.m; sourceTree = "<group>"; };
+		F3E71FE31429E67200B34BE9 /* CJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerialization.h; sourceTree = "<group>"; };
+		F3E71FE41429E67200B34BE9 /* CJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerialization.m; sourceTree = "<group>"; };
+		F3E71FE51429E67200B34BE9 /* CJSONSerializedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializedData.h; sourceTree = "<group>"; };
+		F3E71FE61429E67200B34BE9 /* CJSONSerializedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializedData.m; sourceTree = "<group>"; };
+		F3E71FE81429E67200B34BE9 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		F3E71FE91429E67200B34BE9 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		F3E71FEA1429E67200B34BE9 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		F3E71FEB1429E67200B34BE9 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		F3E71FED1429E67200B34BE9 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		F3E71FEE1429E67200B34BE9 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		F3E71FEF1429E67200B34BE9 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		F3E71FF01429E67200B34BE9 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		F3E71FF11429E67200B34BE9 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		F3E71FF21429E67200B34BE9 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		F3E71FF31429E67200B34BE9 /* JSONRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRepresentation.h; sourceTree = "<group>"; };
+		F3E71FFE1429FFF800B34BE9 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F3E71FFF1429FFF800B34BE9 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F3E720001429FFF800B34BE9 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3E71FB21429DDC000B34BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E71FBA1429DDC000B34BE9 /* UIKit.framework in Frameworks */,
+				F3E71FBC1429DDC000B34BE9 /* Foundation.framework in Frameworks */,
+				F3E71FBE1429DDC000B34BE9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3E71FAA1429DDC000B34BE9 = {
+			isa = PBXGroup;
+			children = (
+				F3E71FDB1429E67200B34BE9 /* TouchJSON */,
+				F3E71FBF1429DDC000B34BE9 /* DrillDown */,
+				F3E71FB81429DDC000B34BE9 /* Frameworks */,
+				F3E71FB61429DDC000B34BE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3E71FB61429DDC000B34BE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3E71FB51429DDC000B34BE9 /* DrillDown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3E71FB81429DDC000B34BE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3E71FB91429DDC000B34BE9 /* UIKit.framework */,
+				F3E71FBB1429DDC000B34BE9 /* Foundation.framework */,
+				F3E71FBD1429DDC000B34BE9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E71FBF1429DDC000B34BE9 /* DrillDown */ = {
+			isa = PBXGroup;
+			children = (
+				F3E71FD91429E12800B34BE9 /* public_timeline.json */,
+				F3E71FC81429DDC000B34BE9 /* DrillDownAppDelegate.h */,
+				F3E71FC91429DDC000B34BE9 /* DrillDownAppDelegate.m */,
+				F3E71FCB1429DDC000B34BE9 /* MainWindow.xib */,
+				F3E71FCE1429DDC000B34BE9 /* RootViewController.h */,
+				F3E71FCF1429DDC000B34BE9 /* RootViewController.m */,
+				F3E71FD11429DDC000B34BE9 /* RootViewController.xib */,
+				F3E71FC01429DDC000B34BE9 /* Supporting Files */,
+				F3E71FFE1429FFF800B34BE9 /* DetailViewController.h */,
+				F3E71FFF1429FFF800B34BE9 /* DetailViewController.m */,
+				F3E720001429FFF800B34BE9 /* DetailViewController.xib */,
+			);
+			path = DrillDown;
+			sourceTree = "<group>";
+		};
+		F3E71FC01429DDC000B34BE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3E71FC11429DDC000B34BE9 /* DrillDown-Info.plist */,
+				F3E71FC21429DDC000B34BE9 /* InfoPlist.strings */,
+				F3E71FC51429DDC000B34BE9 /* main.m */,
+				F3E71FC71429DDC000B34BE9 /* DrillDown-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3E71FDB1429E67200B34BE9 /* TouchJSON */ = {
+			isa = PBXGroup;
+			children = (
+				F3E71FDC1429E67200B34BE9 /* CDataScanner.h */,
+				F3E71FDD1429E67200B34BE9 /* CDataScanner.m */,
+				F3E71FDE1429E67200B34BE9 /* Experimental */,
+				F3E71FE71429E67200B34BE9 /* Extensions */,
+				F3E71FEC1429E67200B34BE9 /* JSON */,
+			);
+			path = TouchJSON;
+			sourceTree = "<group>";
+		};
+		F3E71FDE1429E67200B34BE9 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				F3E71FDF1429E67200B34BE9 /* CFilteringJSONSerializer.h */,
+				F3E71FE01429E67200B34BE9 /* CFilteringJSONSerializer.m */,
+				F3E71FE11429E67200B34BE9 /* CJSONDeserializer_BlocksExtensions.h */,
+				F3E71FE21429E67200B34BE9 /* CJSONDeserializer_BlocksExtensions.m */,
+				F3E71FE31429E67200B34BE9 /* CJSONSerialization.h */,
+				F3E71FE41429E67200B34BE9 /* CJSONSerialization.m */,
+				F3E71FE51429E67200B34BE9 /* CJSONSerializedData.h */,
+				F3E71FE61429E67200B34BE9 /* CJSONSerializedData.m */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		F3E71FE71429E67200B34BE9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F3E71FE81429E67200B34BE9 /* CDataScanner_Extensions.h */,
+				F3E71FE91429E67200B34BE9 /* CDataScanner_Extensions.m */,
+				F3E71FEA1429E67200B34BE9 /* NSDictionary_JSONExtensions.h */,
+				F3E71FEB1429E67200B34BE9 /* NSDictionary_JSONExtensions.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F3E71FEC1429E67200B34BE9 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				F3E71FED1429E67200B34BE9 /* CJSONDeserializer.h */,
+				F3E71FEE1429E67200B34BE9 /* CJSONDeserializer.m */,
+				F3E71FEF1429E67200B34BE9 /* CJSONScanner.h */,
+				F3E71FF01429E67200B34BE9 /* CJSONScanner.m */,
+				F3E71FF11429E67200B34BE9 /* CJSONSerializer.h */,
+				F3E71FF21429E67200B34BE9 /* CJSONSerializer.m */,
+				F3E71FF31429E67200B34BE9 /* JSONRepresentation.h */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3E71FB41429DDC000B34BE9 /* DrillDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E71FD61429DDC000B34BE9 /* Build configuration list for PBXNativeTarget "DrillDown" */;
+			buildPhases = (
+				F3E71FB11429DDC000B34BE9 /* Sources */,
+				F3E71FB21429DDC000B34BE9 /* Frameworks */,
+				F3E71FB31429DDC000B34BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrillDown;
+			productName = DrillDown;
+			productReference = F3E71FB51429DDC000B34BE9 /* DrillDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3E71FAC1429DDC000B34BE9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F3E71FAF1429DDC000B34BE9 /* Build configuration list for PBXProject "DrillDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3E71FAA1429DDC000B34BE9;
+			productRefGroup = F3E71FB61429DDC000B34BE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3E71FB41429DDC000B34BE9 /* DrillDown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3E71FB31429DDC000B34BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E71FC41429DDC000B34BE9 /* InfoPlist.strings in Resources */,
+				F3E71FCD1429DDC000B34BE9 /* MainWindow.xib in Resources */,
+				F3E71FD31429DDC000B34BE9 /* RootViewController.xib in Resources */,
+				F3E71FDA1429E12800B34BE9 /* public_timeline.json in Resources */,
+				F3E720021429FFF800B34BE9 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3E71FB11429DDC000B34BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E71FC61429DDC000B34BE9 /* main.m in Sources */,
+				F3E71FCA1429DDC000B34BE9 /* DrillDownAppDelegate.m in Sources */,
+				F3E71FD01429DDC000B34BE9 /* RootViewController.m in Sources */,
+				F3E71FF41429E67200B34BE9 /* CDataScanner.m in Sources */,
+				F3E71FF51429E67200B34BE9 /* CFilteringJSONSerializer.m in Sources */,
+				F3E71FF61429E67200B34BE9 /* CJSONDeserializer_BlocksExtensions.m in Sources */,
+				F3E71FF71429E67200B34BE9 /* CJSONSerialization.m in Sources */,
+				F3E71FF81429E67200B34BE9 /* CJSONSerializedData.m in Sources */,
+				F3E71FF91429E67200B34BE9 /* CDataScanner_Extensions.m in Sources */,
+				F3E71FFA1429E67200B34BE9 /* NSDictionary_JSONExtensions.m in Sources */,
+				F3E71FFB1429E67200B34BE9 /* CJSONDeserializer.m in Sources */,
+				F3E71FFC1429E67200B34BE9 /* CJSONScanner.m in Sources */,
+				F3E71FFD1429E67200B34BE9 /* CJSONSerializer.m in Sources */,
+				F3E720011429FFF800B34BE9 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3E71FC21429DDC000B34BE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E71FC31429DDC000B34BE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3E71FCB1429DDC000B34BE9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E71FCC1429DDC000B34BE9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F3E71FD11429DDC000B34BE9 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E71FD21429DDC000B34BE9 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3E71FD41429DDC000B34BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3E71FD51429DDC000B34BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3E71FD71429DDC000B34BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrillDown/DrillDown-Prefix.pch";
+				INFOPLIST_FILE = "DrillDown/DrillDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3E71FD81429DDC000B34BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrillDown/DrillDown-Prefix.pch";
+				INFOPLIST_FILE = "DrillDown/DrillDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3E71FAF1429DDC000B34BE9 /* Build configuration list for PBXProject "DrillDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E71FD41429DDC000B34BE9 /* Debug */,
+				F3E71FD51429DDC000B34BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E71FD61429DDC000B34BE9 /* Build configuration list for PBXNativeTarget "DrillDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E71FD71429DDC000B34BE9 /* Debug */,
+				F3E71FD81429DDC000B34BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3E71FAC1429DDC000B34BE9 /* Project object */;
+}
