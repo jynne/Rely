@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "GTMHTTPFetcher.h"
 
 @implementation DetailViewController
 @synthesize profileBackgroundImageView;
