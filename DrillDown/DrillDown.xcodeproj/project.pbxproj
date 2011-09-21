@@ -29,6 +29,7 @@
 		F3E71FFD1429E67200B34BE9 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FF21429E67200B34BE9 /* CJSONSerializer.m */; };
 		F3E720011429FFF800B34BE9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E71FFF1429FFF800B34BE9 /* DetailViewController.m */; };
 		F3E720021429FFF800B34BE9 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3E720001429FFF800B34BE9 /* DetailViewController.xib */; };
+		F3E72004142A006E00B34BE9 /* overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E72003142A006E00B34BE9 /* overlay.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		F3E71FFE1429FFF800B34BE9 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		F3E71FFF1429FFF800B34BE9 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		F3E720001429FFF800B34BE9 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		F3E72003142A006E00B34BE9 /* overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +92,7 @@
 		F3E71FAA1429DDC000B34BE9 = {
 			isa = PBXGroup;
 			children = (
-				F3E71FDB1429E67200B34BE9 /* TouchJSON */,
+				F3E72006142A008700B34BE9 /* Libraries */,
 				F3E71FBF1429DDC000B34BE9 /* DrillDown */,
 				F3E71FB81429DDC000B34BE9 /* Frameworks */,
 				F3E71FB61429DDC000B34BE9 /* Products */,
@@ -118,6 +120,7 @@
 		F3E71FBF1429DDC000B34BE9 /* DrillDown */ = {
 			isa = PBXGroup;
 			children = (
+				F3E72005142A007200B34BE9 /* Assets */,
 				F3E71FD91429E12800B34BE9 /* public_timeline.json */,
 				F3E71FC81429DDC000B34BE9 /* DrillDownAppDelegate.h */,
 				F3E71FC91429DDC000B34BE9 /* DrillDownAppDelegate.m */,
@@ -196,6 +199,22 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
+		F3E72005142A007200B34BE9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F3E72003142A006E00B34BE9 /* overlay.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		F3E72006142A008700B34BE9 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F3E71FDB1429E67200B34BE9 /* TouchJSON */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -248,6 +267,7 @@
 				F3E71FD31429DDC000B34BE9 /* RootViewController.xib in Resources */,
 				F3E71FDA1429E12800B34BE9 /* public_timeline.json in Resources */,
 				F3E720021429FFF800B34BE9 /* DetailViewController.xib in Resources */,
+				F3E72004142A006E00B34BE9 /* overlay.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
