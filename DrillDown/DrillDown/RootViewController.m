@@ -7,18 +7,18 @@
 //
 
 #import "RootViewController.h"
+#import "DetailViewController.h"
 #import "CJSONDeserializer.h"
 
 @implementation RootViewController
-
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    NSString *pathToData = [[NSBundle mainBundle] pathForResource:@"public_timeline" ofType:@"json"];
+    //NSString *pathToData = [[NSBundle mainBundle] pathForResource:@"public_timeline" ofType:@"json"];
     
-    NSData *publicTimeLineData = [NSData dataWithContentsOfFile:pathToData];
+    NSData *publicTimeLineData = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://api.twitter.com/1/statuses/public_timeline.json"]];
     
     NSError *error;
     _publicTimeLine = [[CJSONDeserializer deserializer] deserializeAsArray:publicTimeLineData error:&error];
@@ -137,14 +137,15 @@
 #pragma mark - UITableViewDelegate methods
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+{    
+    NSDictionary * tweet = [_publicTimeLine objectAtIndex:indexPath.row];
+    
+    DetailViewController *detailViewController = [[DetailViewController alloc] initWithTweet:tweet];
+
     // ...
     // Pass the selected object to the new view controller.
     [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
-	*/
 }
 
 - (void)didReceiveMemoryWarning
