@@ -9,6 +9,8 @@
 #import "RootViewController.h"
 #import "DetailViewController.h"
 #import "CJSONDeserializer.h"
+#import "GTMHTTPFetcher.h"
+#import "UIApplication+NetworkActivityIndicatorManager.h"
 
 @implementation RootViewController
 
@@ -18,14 +20,23 @@
     
     //NSString *pathToData = [[NSBundle mainBundle] pathForResource:@"public_timeline" ofType:@"json"];
     
-    NSData *publicTimeLineData = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://api.twitter.com/1/statuses/public_timeline.json"]];
+    GTMHTTPFetcher* timeLineDataFetcher = [GTMHTTPFetcher fetcherWithURLString:@"http://api.twitter.com/1/statuses/public_timeline.json"];
+
+    [UIApplication dataOperationStarted];
+    [timeLineDataFetcher beginFetchWithCompletionHandler:^(NSData *retrievedData, NSError *error) {
+        // succeeded
+        _publicTimeLine = [[CJSONDeserializer deserializer] deserializeAsArray:retrievedData error:&error];
+        [_publicTimeLine retain];
+        [UIApplication dataOperationEnded];
+    }];
+
     
-    NSError *error;
-    _publicTimeLine = [[CJSONDeserializer deserializer] deserializeAsArray:publicTimeLineData error:&error];
-    [_publicTimeLine retain];
+    //NSData *publicTimeLineData = [NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://api.twitter.com/1/statuses/public_timeline.json"]];
+    
+//    NSError *error;
     
     if (_publicTimeLine == nil) {
-        NSLog(@"Error loading public timeline: %@", error.localizedDescription);
+        NSLog(@"Error loading public timeline");
     }
     
     NSLog(@"Public timeline %@", _publicTimeLine);

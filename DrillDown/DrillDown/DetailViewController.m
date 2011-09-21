@@ -8,6 +8,7 @@
 
 #import "DetailViewController.h"
 #import "GTMHTTPFetcher.h"
+#import "UIApplication+NetworkActivityIndicatorManager.h"
 
 @implementation DetailViewController
 @synthesize profileBackgroundImageView;
@@ -79,12 +80,35 @@
     
     NSString *profileImageUrl =  [_tweet valueForKeyPath:@"user.profile_image_url"];
     profileImageUrl = [profileImageUrl stringByReplacingOccurrencesOfString:@"_normal" withString:@"_bigger"];
-    UIImage *profileImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:profileImageUrl]]];
-    self.profileImageView.image = profileImage;
+    
+    GTMHTTPFetcher* profileImageFetcher = [GTMHTTPFetcher fetcherWithURLString:profileImageUrl];
+    
+    [UIApplication dataOperationStarted];
+    [profileImageFetcher beginFetchWithCompletionHandler:^(NSData *retrievedData, NSError *error) {
+        UIImage *profileImage;
+        if (error != nil) {
+            // status code or network error
+            profileImage = [UIImage imageNamed:@"profile-image-error.png"];
+        } else {
+            // succeeded
+            profileImage = [UIImage imageWithData:retrievedData];
+        }
+        self.profileImageView.image = profileImage;
+        [UIApplication dataOperationEnded];
+    }];
 
     NSString *profileBackgroundImageUrl =  [_tweet valueForKeyPath:@"user.profile_background_image_url"];    
-    UIImage *profileBackgroundImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:profileBackgroundImageUrl]]];
-    self.profileBackgroundImageView.image = profileBackgroundImage;
+
+    GTMHTTPFetcher* profileBackgroundImageFetcher = [GTMHTTPFetcher fetcherWithURLString:profileBackgroundImageUrl];
+
+    [UIApplication dataOperationStarted];
+    [profileBackgroundImageFetcher beginFetchWithCompletionHandler:^(NSData *retrievedData, NSError *error) {
+        UIImage *profileBackgroundImage;
+        // succeeded
+        profileBackgroundImage = [UIImage imageWithData:retrievedData];
+        self.profileBackgroundImageView.image = profileBackgroundImage;
+        [UIApplication dataOperationEnded];
+    }];
 }
 
 - (void)viewDidUnload

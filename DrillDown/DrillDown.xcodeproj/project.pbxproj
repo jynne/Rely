@@ -37,6 +37,8 @@
 		F3E7201A142A1EA200B34BE9 /* GTMHTTPFetchHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E72011142A1EA200B34BE9 /* GTMHTTPFetchHistory.m */; };
 		F3E7201B142A1EA200B34BE9 /* GTMHTTPUploadFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E72013142A1EA200B34BE9 /* GTMHTTPUploadFetcher.m */; };
 		F3E7201C142A1EA200B34BE9 /* GTMMIMEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E72015142A1EA200B34BE9 /* GTMMIMEDocument.m */; };
+		F3E7201E142A20FC00B34BE9 /* profile-image-error.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E7201D142A20FC00B34BE9 /* profile-image-error.png */; };
+		F3E72025142A242E00B34BE9 /* UIApplication+NetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E72024142A242E00B34BE9 /* UIApplication+NetworkActivityIndicatorManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,9 @@
 		F3E72013142A1EA200B34BE9 /* GTMHTTPUploadFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPUploadFetcher.m; sourceTree = "<group>"; };
 		F3E72014142A1EA200B34BE9 /* GTMMIMEDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMMIMEDocument.h; sourceTree = "<group>"; };
 		F3E72015142A1EA200B34BE9 /* GTMMIMEDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMMIMEDocument.m; sourceTree = "<group>"; };
+		F3E7201D142A20FC00B34BE9 /* profile-image-error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-image-error.png"; sourceTree = "<group>"; };
+		F3E72023142A242E00B34BE9 /* UIApplication+NetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+NetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		F3E72024142A242E00B34BE9 /* UIApplication+NetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+NetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +228,7 @@
 		F3E72005142A007200B34BE9 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				F3E7201D142A20FC00B34BE9 /* profile-image-error.png */,
 				F3E72003142A006E00B34BE9 /* overlay.png */,
 			);
 			name = Assets;
@@ -231,6 +237,7 @@
 		F3E72006142A008700B34BE9 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				F3E7201F142A23D500B34BE9 /* NetworkActivityIndicatorManager */,
 				F3E72007142A1E7500B34BE9 /* GTM http fetcher */,
 				F3E71FDB1429E67200B34BE9 /* TouchJSON */,
 			);
@@ -256,6 +263,15 @@
 				F3E72015142A1EA200B34BE9 /* GTMMIMEDocument.m */,
 			);
 			name = "GTM http fetcher";
+			sourceTree = "<group>";
+		};
+		F3E7201F142A23D500B34BE9 /* NetworkActivityIndicatorManager */ = {
+			isa = PBXGroup;
+			children = (
+				F3E72023142A242E00B34BE9 /* UIApplication+NetworkActivityIndicatorManager.h */,
+				F3E72024142A242E00B34BE9 /* UIApplication+NetworkActivityIndicatorManager.m */,
+			);
+			name = NetworkActivityIndicatorManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +327,7 @@
 				F3E71FDA1429E12800B34BE9 /* public_timeline.json in Resources */,
 				F3E720021429FFF800B34BE9 /* DetailViewController.xib in Resources */,
 				F3E72004142A006E00B34BE9 /* overlay.png in Resources */,
+				F3E7201E142A20FC00B34BE9 /* profile-image-error.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +359,7 @@
 				F3E7201A142A1EA200B34BE9 /* GTMHTTPFetchHistory.m in Sources */,
 				F3E7201B142A1EA200B34BE9 /* GTMHTTPUploadFetcher.m in Sources */,
 				F3E7201C142A1EA200B34BE9 /* GTMMIMEDocument.m in Sources */,
+				F3E72025142A242E00B34BE9 /* UIApplication+NetworkActivityIndicatorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
